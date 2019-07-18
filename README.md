@@ -2,7 +2,7 @@
 
 This Project contains all the practicals `source code` for the computer science batch of Kerala Syllabus. So being a computer science student and knowing that there was no github repo for the practicals was kind of sad. So thats way this is created.
 
-## Installation
+## Installation 💻
 
 #### Linux Users.
 
@@ -10,9 +10,11 @@ If you are on Ubuntu you should be fine because that's what our schools use, jus
 
 #### Windows Users.
 
-Setting a C++ workspace on a windows system is a huge pain in the a😩s . So what i recommend you do is, going online and finding an IDE is much more easy and will work perfectly fine.
+Setting a C++ or mySQL workspace on a windows machine is a huge pain in the 😵 . So what i recommend you do is, going online and finding an IDE is much more easy and will work perfectly fine.
 
 Some good ones that i found :
+
+> C++ IDE online
 
 - [cpp.sh](http://cpp.sh/)
 
@@ -39,6 +41,6 @@ So basically in our syllabus we have 25 Practicals, Which are divided like:
 
 My main Goal was to provide the `code files` so that students can get them easily at the time of exams
 
-## License
+## License 📝
 
 Distributed under the MIT License. See `LICENSE` for more information.
