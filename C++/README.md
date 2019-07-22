@@ -18,7 +18,7 @@ Some good ones that i found :
 
 - [jdoodle.com](https://www.jdoodle.com/online-compiler-c++)
 
-There are also some other IDE's but you will be facing some problems when running the programs this is because are many version of C++ and what we learn is version **C++ 98** .
+There are many other IDE's online, but you will be facing some problems when running the programs. This is because are many version of C++ and what we learn is version **C++ 98** .
 
 [Learn more about C++ verions](https://www.tutorialspoint.com/Different-Cplusplus-Versions)
 
