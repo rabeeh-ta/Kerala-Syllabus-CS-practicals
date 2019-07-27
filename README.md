@@ -15,7 +15,7 @@ uses
 
 Setting a C++ or mySQL workspace on a windows machine is a huge pain in the 😵 . So what i recommend you do is, going online and finding an IDE is much more easy and will work perfectly fine.
 
-Some good ones that i found :
+Some good ones that I found :
 
 > C++ IDE online
 
