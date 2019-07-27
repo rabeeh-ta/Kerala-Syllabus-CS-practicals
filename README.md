@@ -9,7 +9,7 @@ This Project contains all the practicals `source code` for the computer science 
 If you are on Ubuntu you should be fine because that's what our schools use, just get the files and run it thats it on your IDE.
 uses
 
-> `Geany IDE used in schools` [Download](https://www.geany.org/)
+**`Geany IDE used in schools`** [ Download](https://www.geany.org/)
 
 #### Windows Users.
 
