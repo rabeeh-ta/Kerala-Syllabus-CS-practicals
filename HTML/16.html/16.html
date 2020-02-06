@@ -1,0 +1,38 @@
+<!--
+    Q. Develop a webpage with two text boxes and a button labelled “Show”. The user can enter a number in the first text box. One clicking the button, the second text box should display the day corresponding to the given number using switch statement in JavaScript. (1 – Sunday, 2 – Monday, ….., 7 – Saturday)
+
+-->
+
+<html>
+
+<head>
+
+    <script language="javascript">
+        function day() {
+            var d = Number(document.f.a.value);
+            switch (d) {
+                case 1: document.f.b.value = "Sunday"; break;
+                case 2: document.f.b.value = "Monday"; break;
+                case 3: document.f.b.value = "Tuesday"; break;
+                case 4: document.f.b.value = "Wednesday"; break;
+                case 5: document.f.b.value = "Thursday"; break;
+                case 6: document.f.b.value = "Friday"; break;
+                case 7: document.f.b.value = "Saturday"; break;
+                default: document.f.b.value = "Invalid day";
+
+            }
+        }</script>
+</head>
+
+<body>
+    <center>
+        <h1>Day name corresponding to day number</h1>
+        <form name="f">
+            Enter Day Number<input type="text " name=a><br><BR>
+            Day name <input type="text" name=b><br><BR>
+            <input type="button" value="show" onClick="day()"><br><br>
+        </form>
+    </center>
+</body>
+
+</html>
