@@ -3,17 +3,20 @@
  */
 
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    int n, i, s = 0;
-    cout << "Enter a limit \n";
+
+    int n, sum = 0;
+
+    cout << "Enter the number to find the sum of digits of int. \n";
     cin >> n;
-    for (i = 0; i <= n; i++)
+
+    for (int i = 1; i <= n; i++)
     {
-        s = s + i * i;
+        sum = sum + (i * i);
     }
-    cout << "Sum of the squares = " << s;
+
+    cout << "\n The sum of digits is = " << sum << "\n";
 }

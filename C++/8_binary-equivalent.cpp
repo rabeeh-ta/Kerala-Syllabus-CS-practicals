@@ -5,23 +5,29 @@
 
 #include <iostream>
 using namespace std;
+
 long binary(long dec)
 {
-    long rem, i = 1, sum = 0;
+
+    int sum = 0, rem, i = 1;
+
     do
     {
+
         rem = dec % 2;
         sum = sum + (i * rem);
         dec = dec / 2;
         i = i * 10;
+
     } while (dec > 0);
     return sum;
 }
+
 int main()
 {
-    long d, ans;
-    cout << "Enter the decimal to be converted:";
-    cin >> d;
-    ans = binary(d);
-    cout << "The binary of the given number is:" << ans << "\n";
+    int n, ans;
+    cout << "Enter the Number to find the binary \n";
+    cin >> n;
+    ans = binary(n);
+    cout << "The binary value is = " << ans << "\n";
 }

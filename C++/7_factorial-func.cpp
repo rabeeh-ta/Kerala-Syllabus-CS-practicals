@@ -5,19 +5,24 @@
 #include <iostream>
 using namespace std;
 
-int fact(int k){
-    int i, f = 1;
-    for ( i = 1; i < k; i++)
+int fact(int k)
+{
+
+    int f = 1, i;
+    for (i = 1; i <= k; i++)
     {
-        f = f*1;
+        f = f * i;
     }
     return f;
 }
 
-int main(){
-    int n, r, ncr;
-    cout << "Enter n and r :";
+int main()
+{
+    float n, r, ncr;
+    cout << "Enter the N and R \n";
     cin >> n >> r;
-    ncr = fact(n)/( fact(r) * fact( n - r));
-    cout << n << "C" << r << "=" << ncr << "\n";
+
+    ncr = fact(n) / (fact(r) * fact(n - r));
+
+    cout << "the nCr = " << ncr << "\n";
 }
